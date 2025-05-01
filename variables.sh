@@ -1,6 +1,6 @@
 x=100
 y=rahulji
-
+z=$2
 
 
 
