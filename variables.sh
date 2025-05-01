@@ -8,4 +8,4 @@ z=$1
 
 echo x - $x
 echo y - ${y}
-echo z - $z
+echo z - ${z}
