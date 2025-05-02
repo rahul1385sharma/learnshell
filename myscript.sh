@@ -3,7 +3,8 @@ source common.sh
 #foo
 #myadd
 #
-if [ -z "${pswd}" -a -z "$1" ]; then
+pswd=$1
+if [ -z "${pswd}" ]; then
   echo Input password is missing
   exit
 fi
