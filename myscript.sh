@@ -2,8 +2,14 @@ source common.sh
 
 #foo
 #myadd
+#
+#if [[ -z "$ttt" ]]; then
+#  echo missing
+#  exit
+#fi
+#  echo $ttt
 
-if [[ -z "$ttt" ]]; then
+if [ -z "${ttt}" -o -z "$1" ]; then
   echo missing
   exit
 fi
