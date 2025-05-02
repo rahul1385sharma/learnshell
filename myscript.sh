@@ -7,3 +7,9 @@ if [ -z "${pswd}" -a -z "$1" ]; then
   echo Input password is missing
   exit
 fi
+
+if [ -n "${pswd}" ]; then
+  PASSWORD=$pswd
+fi
+
+echo PASSWORD
