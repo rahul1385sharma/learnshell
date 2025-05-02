@@ -9,7 +9,7 @@ source common.sh
 #fi
 #  echo $ttt
 
-if [ -z "${ttt}" -o -z "$1" ]; then
+if [ -z "${ttt}" -a -z "$1" ]; then
   echo missing
   exit
 fi
