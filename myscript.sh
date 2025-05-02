@@ -3,8 +3,8 @@ source common.sh
 #foo
 #myadd
 
-if [[ -z "$tt" ]]; then
+if [[ -z "$ttt" ]]; then
   echo missing
   exit
 fi
-  echo $tt
+  echo $ttt
