@@ -10,6 +10,7 @@ fi
 
 if [ -n "${pswd}" ]; then
   PASSWORD=$pswd
+  echo password - $PASSWORD
 fi
 
-echo PASSWORD
+echo pswd -  $pswd
