@@ -7,3 +7,5 @@ add() {
   echo y - $y
   echo z -$z
 }
+
+add
