@@ -1,4 +1,4 @@
-multiply() {
+fun_a() {
   a=$1
   b=$2
 
@@ -7,6 +7,6 @@ multiply() {
 
 }
 
-multiply
+fun_a
 
 
