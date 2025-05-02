@@ -17,6 +17,7 @@ source common.sh
 #fi
 
 if [ -z "${ttt}" -a -z "$1" ]; then
+  echo ${ttt}
   echo missing
 fi
   echo $ttt
