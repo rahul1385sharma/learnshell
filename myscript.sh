@@ -8,7 +8,7 @@ source common.sh
 #  exit
 #fi
 #  echo $ttt
-#ttt=$1
+ttt=$1
 
 #if [ -n "${ttt}" ]; then
 #  echo ${ttt}
@@ -16,8 +16,11 @@ source common.sh
 #  exit
 #fi
 
-if [ -z "${ttt}" -a -z "$1" ]; then
-  echo ${ttt}
-  echo missing
+if [ -z "${ttt}" ]; then
+  echo lhs missing
+fi
+
+if [ -z "$1" ]; then
+  echo rhs missing
 fi
   echo $ttt
