@@ -1,5 +1,10 @@
 source common.sh
 
-foo
+#foo
+#myadd
 
-myadd
+if [[ -z "$a" ]]; then
+  echo missing
+  exit
+fi
+  echo $a
