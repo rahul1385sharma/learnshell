@@ -1,7 +1,7 @@
 # looping concepts
 
 a=0
-while [ $a -lt 10 ]
+while [ $a -lt $1 ]
 do
     # Print the values
     echo $a
