@@ -73,11 +73,12 @@ COLORS="$1 $2"
 #  read -p “Is ${NAME} correct? ” CORRECT
 ##done
 
-#echo "Enter your first and last name:"
-#read first last
-#
-#echo "First Name: $first"
-#echo "Last Name: $last"
 
-read -p "Enter your age: " age
-echo "You are $age years old."
+read -p first
+read -p last
+
+echo "First Name: $first"
+echo "Last Name: $last"
+
+#read -p "Enter your age: " age
+#echo "You are $age years old."
