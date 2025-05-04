@@ -1,5 +1,5 @@
 source common.sh
-source a.txt
+
 
 #mytime
 
