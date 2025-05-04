@@ -29,22 +29,32 @@
 #    echo "Number: $i"
 #done
 
-a=0
+#a=0
 
 
 # -gt is greater than operator
 #Iterate the loop until a is greater than 10
 
 
-until [ $a -gt 10 ]
+#until [ $a -gt 10 ]
+#do
+#
+#
+#    # Print the values
+#    echo $a
+#
+#
+#    # increment the value
+#    a=`expr $a + 1`
+#done
+
+COLORS=$1 $2 $3
+
+
+# the for loop continues until it reads all the values from the COLORS
+
+
+for COLOR in $COLORS
 do
-
-
-    # Print the values
-    echo $a
-
-
-    # increment the value
-    a=`expr $a + 1`
+    echo COLOR: $COLOR
 done
-
