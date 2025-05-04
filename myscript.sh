@@ -11,9 +11,9 @@ if [ -z "${pswd}" ]; then
   exit
 fi
 #
-#if [ -n "${pswd}" ]; then
-#  PASSWORD=$pswd
-#  echo password - $PASSWORD
-#fi
+if [ -n "${pswd}" ]; then
+  PASSWORD=$pswd
+  echo password - $PASSWORD
+fi
 #
-#echo pswd -  $pswd
+echo pswd -  $pswd
