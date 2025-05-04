@@ -48,7 +48,7 @@
 #    a=`expr $a + 1`
 #done
 
-COLORS="$1"
+COLORS="$1" "$2"
 
 
 # the for loop continues until it reads all the values from the COLORS
