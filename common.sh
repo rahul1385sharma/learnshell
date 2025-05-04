@@ -10,8 +10,12 @@ function myadd() {
 
 function mytime() {
 
-echo print started!!
+start_time=$(date+%s)
+end_time=$(date+%s)
+
+
+echo print started!! - $start_time
 sleep 5
-echo print end!!
+echo print end!! - $end_time
 
 }
