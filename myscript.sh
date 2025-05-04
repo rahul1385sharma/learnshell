@@ -29,8 +29,16 @@ source common.sh
 #echo pswd -  $pswd
 
 echo name - ${name}
-if [ "$name" == rahul]; then
+if [ "$name" = "rahul" ]; then
   echo hi rahul
 else
 echo you are not rahul -$name
 fi
+
+#name="Alice"
+#
+#if [ "$name" = "Alice" ]; then
+#    echo "Hello, Alice!"
+#else
+#    echo "You're not Alice."
+#fi
