@@ -86,4 +86,4 @@ COLORS="$1 $2"
 
 read -sp "Enter your password: " password
 echo
-echo "Password received (but not shown)."
+echo "Password received (but not shown)." -$password
