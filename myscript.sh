@@ -32,6 +32,7 @@ source common.sh
 
 if [ -z "$name" ]; then
 echo no name - please provide name -$name
+exit
 fi
 echo name - ${name}
 if [ "$name" = "rahul" ]; then
