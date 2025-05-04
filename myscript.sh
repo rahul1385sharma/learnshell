@@ -47,12 +47,20 @@ currency=$2
 if [ "$currency" == usd ]; then
   inr=$(($1*85))
   echo USD currency in INR - $inr
-fi
 
-if [ "$currency" == aud ]; then
+elif  [ "$currency" == aud ]; then
   inr=$(($1*55))
   echo AUD currency in INR - $inr
+else
+  echo you have nto entered any currency - $amount
 fi
+
+#if [ "$currency" == aud ]; then
+#  inr=$(($1*55))
+#  echo AUD currency in INR - $inr
+#fi
+
+
 #name="Alice"
 #
 #if [ "$name" = "Alice" ]; then
