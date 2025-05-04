@@ -17,10 +17,13 @@ source common.sh
 #fi
 
 r=$1
-if [ "$r" -le 5 ]; then
-  echo r is less than equal to 5 - $r
+if [ "$r" -le 50 ]; then
+  echo r is less than equal to 50 - $r
+elif [ "$r" -le 100 ]; then
+  echo r is less than or equal to 100 - $r
+
 else
-  echo r is greater than 5 - $r
+ echo r is greater than 100 -$r
 fi
 #
 echo pswd -  $pswd
