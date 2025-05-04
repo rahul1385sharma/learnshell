@@ -74,8 +74,8 @@ COLORS="$1 $2"
 ##done
 
 
-read -p first
-read -p last
+read -p "Enter your first name" first
+read -p "Enter your last name" last
 
 echo "First Name: $first"
 echo "Last Name: $last"
