@@ -7,7 +7,7 @@ source common.sh
 #myadd
 #
 #pswd=$1
-if [ -z "${pswd}" -a -z "$1" ]; then
+if [ -z "${pswd}" -o -z "$1" ]; then
   echo Input password is missing
   exit
 fi
@@ -73,9 +73,9 @@ echo rhs - $1
 #fi
 
 
-file="a.txt"
-if [ -s "$file" ]; then
-  echo file is not empty - $file
-else
-  echo file is empty - $file
-fi
+#file="a.txt"
+#if [ -s "$file" ]; then
+#  echo file is not empty - $file
+#else
+#  echo file is empty - $file
+#fi
