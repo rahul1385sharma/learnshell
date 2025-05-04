@@ -17,7 +17,7 @@ source common.sh
 #fi
 
 r=$1
-if [ r -le 5]; then
+if [ "$r" -le 5 ]; then
   echo r is less than equal to 5 - $r
 else
   echo r is greater than 5 - $r
