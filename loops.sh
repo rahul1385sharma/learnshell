@@ -11,12 +11,20 @@
 #done
 
 
-for a in 1 2 3 4 5 6 7 8 9 10
-do
+#for a in 1 2 3 4 5 6 7 8 9 10
+#do
+#
+#    if [ $a == 5 ]
+#    then
+#        break
+#    fi
+#    echo Iteration no $a
+#done
 
-    if [ $a == 5 ]
-    then
-        break
+for i in {1..20}; do
+    if [ "$i" -eq 10 ]; then
+        echo "Skipping $i"
+        continue
     fi
-    echo Iteration no $a
+    echo "Number: $i"
 done
