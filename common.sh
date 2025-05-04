@@ -10,8 +10,8 @@ function myadd() {
 
 function mytime() {
 
-start_time=$(date+%s)
-end_time=$(date+%s)
+start_time=$(date +%s)
+end_time=$(date +%s)
 
 
 echo print started!! - $start_time
