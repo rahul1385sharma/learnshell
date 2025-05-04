@@ -7,10 +7,12 @@ source common.sh
 #myadd
 #
 #pswd=$1
-if [ -z "${pswd}" -o -z "$1" ]; then
+if [ -z "${pswd}" -a -z "$1" ]; then
   echo Input password is missing
   exit
 fi
+echo lhs - ${pswd}
+echo rhs - $1
 #
 #if [ -n "${pswd}" ]; then
 #  PASSWORD=$pswd
