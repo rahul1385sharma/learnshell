@@ -7,11 +7,11 @@ source common.sh
 #myadd
 #
 #pswd=$1
-#if [ -z "${pswd}" ]; then
-#  echo Input password is missing
-#  exit
-#fi
-##
+if [ -z "${pswd}" -o -z "$1" ]; then
+  echo Input password is missing
+  exit
+fi
+#
 #if [ -n "${pswd}" ]; then
 #  PASSWORD=$pswd
 #  echo password - $PASSWORD
