@@ -74,11 +74,16 @@ COLORS="$1 $2"
 ##done
 
 
-read -p "Enter your first name" first
-read -p "Enter your last name" last
-
-echo "First Name: $first"
-echo "Last Name: $last"
+#read -p "Enter your first name" first
+#read -p "Enter your last name" last
+#
+#echo "First Name: $first"
+#echo "Last Name: $last"
 
 #read -p "Enter your age: " age
 #echo "You are $age years old."
+
+
+read -sp "Enter your password: " password
+echo
+echo "Password received (but not shown)."
