@@ -69,6 +69,12 @@ COLORS="$1 $2"
 #  # -p stands for prompt asking for the input
 
 
-  read -p “Enter your name:” NAME
-  read -p “Is ${NAME} correct? ” CORRECT
-#done
+#  read -p “Enter your name:” NAME
+#  read -p “Is ${NAME} correct? ” CORRECT
+##done
+
+echo "Enter your first and last name:"
+read first last
+
+echo "First Name: $first"
+echo "Last Name: $last"
