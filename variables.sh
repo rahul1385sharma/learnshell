@@ -1,5 +1,6 @@
 x=100
 y=rahulji
+z=khallaskhopdi
 c=$3
 Date=$(date)
 tray=$((500*5))
