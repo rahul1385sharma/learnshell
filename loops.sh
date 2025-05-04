@@ -54,7 +54,21 @@ COLORS="$1 $2"
 # the for loop continues until it reads all the values from the COLORS
 
 
-for COLOR in $COLORS
-do
-    echo COLOR: $COLOR
-done
+#for COLOR in $COLORS
+#do
+#    echo COLOR: $COLOR
+#done
+
+
+#CORRECT=n
+#while [ “$CORRECT” == “n” ]
+#do
+#
+#
+#  # loop discontinues when you enter y i.e., when your name is correct
+#  # -p stands for prompt asking for the input
+
+
+  read -p “Enter your name:” NAME
+  read -p “Is ${NAME} correct? ” CORRECT
+#done
