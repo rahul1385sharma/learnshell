@@ -30,17 +30,29 @@ source common.sh
 
 
 
-if [ -z "$name" ]; then
-echo no name - please provide name -$name
-exit
-fi
-echo name - ${name}
-if [ "$name" = "rahul" ]; then
-  echo hi rahul
-else
-echo you are not rahul -$name
+#if [ -z "$name" ]; then
+#echo no name - please provide name -$name
+#exit
+#fi
+#echo name - ${name}
+#if [ "$name" = "rahul" ]; then
+#  echo hi rahul
+#else
+#echo you are not rahul -$name
+#fi
+
+amount=$1
+currency=$2
+
+if [ "$currency" == usd ]; then
+  inr=$(($1*85))
+  echo USD currency in INR - $inr
 fi
 
+if [ "$currency" == aud ]; then
+  inr=$(($1*55))
+  echo AUD currency in INR - $inr
+fi
 #name="Alice"
 #
 #if [ "$name" = "Alice" ]; then
