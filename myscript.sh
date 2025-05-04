@@ -28,6 +28,11 @@ source common.sh
 ##
 #echo pswd -  $pswd
 
+
+
+if [ -z "$name" ]; then
+echo no name - please provide name -$name
+fi
 echo name - ${name}
 if [ "$name" = "rahul" ]; then
   echo hi rahul
