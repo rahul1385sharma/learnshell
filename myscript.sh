@@ -72,8 +72,8 @@ source common.sh
 
 
 file="a.txt"
-if [ -e "$file" ]; then
-  echo file exists - $file
+if [ -s "$file" ]; then
+  echo file is not empty - $file
 else
-  echo file not found - $file
+  echo file is empty - $file
 fi
