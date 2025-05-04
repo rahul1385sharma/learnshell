@@ -1,4 +1,5 @@
 source common.sh
+source a.txt
 
 #mytime
 
@@ -41,19 +42,19 @@ source common.sh
 #echo you are not rahul -$name
 #fi
 
-amount=$1
-currency=$2
+#amount=$1
+#currency=$2
 
-if [ "$currency" == usd ]; then
-  inr=$(($1*85))
-  echo USD currency in INR - $inr
-
-elif  [ "$currency" == aud ]; then
-  inr=$(($1*55))
-  echo AUD currency in INR - $inr
-else
-  echo you have nto entered any currency - $amount
-fi
+#if [ "$currency" == usd ]; then
+#  inr=$(($1*85))
+#  echo USD currency in INR - $inr
+#
+#elif  [ "$currency" == aud ]; then
+#  inr=$(($1*55))
+#  echo AUD currency in INR - $inr
+#else
+#  echo you have nto entered any currency - $amount
+#fi
 
 #if [ "$currency" == aud ]; then
 #  inr=$(($1*55))
@@ -68,3 +69,11 @@ fi
 #else
 #    echo "You're not Alice."
 #fi
+
+
+file="a.txt"
+if [ -e "$file" ]; then
+  echo file exists - $file
+else
+  echo file not found - $file
+fi
