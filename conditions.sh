@@ -1,4 +1,4 @@
-# Condition is about skipping a particular task to run or not.
+# Condition is about skipping a particular task to run or not
 - name: Condition Demo
   hosts: localhost
   connection: local
